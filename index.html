@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/pied.css">
+  </head>
+  <body>
+    <div class="conteneur hero">
+      <header class="centre" id="accueil">
+        <h1>Site mono page</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          laborum harum at perspiciatis non quisquam numquam deleniti alias
+          labore, quis voluptatibus vero cum recusandae quod quibusdam. Minima
+          natus dolorum officia!
+        </p>
+        <h2>Auteur: Karym Blain</h2>
+        <div class="navigation">
+          <input type="checkbox" name="" id="chk-burger" />
+          <label for="chk-burger" class="menu__burger">
+            <img
+              src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000"
+              width="32"
+              height="32"
+            />
+          </label>
+          <nav class="menu">
+            <a href="#accueil" class="menu__a">Accueil</a>
+            <a href="#un" class="menu__a">INSCRIPTION</a>
+            <a href="#deux" class="menu__a">TABLEAU</a>
+            <a href="#trois" class="menu__a">TROIS</a>
+            <a href="#quatre" class="menu__a">QUATRE</a>
+            <a href="#cinq" class="menu__a">CINQ</a>
+            <a href="#six" class="menu__a">SIX</a>
+            <a href="#pied de page" class="menu__a">Pied De Page</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="conteneur inscription">
+      <section class="centre" id="un">
+        <h2>INSCRIPTION</h2>
+        <form class="formulaire">
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="nom">Nom</label>
+            <input
+              class="formulaire__input"
+              id="nom"
+              type="text"
+              placeholder="Entrez votre nom"
+            />
+
+            <label class="formulaire__label" for="Prenom">Prenom</label>
+            <input
+              class="formulaire__input"
+              id="Prenom"
+              type="text"
+              placeholder="Entrez votre Prenom"
+            />
+          </div>
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="Courriel">Courriel</label>
+            <input
+              class="formulaire__input"
+              id="Courriel"
+              type="email"
+              placeholder="Entrez votre Courriel"
+            />
+          </div>
+          <fieldset>
+            <legend>abonnement</legend>
+            <label for="rad-1">Novice</label>
+            <input
+              type="radio"
+              name="rad-abonnement"
+              id="rad-1"
+              class="formulaire__rad"
+            />
+            <label for="rad-2">intermediaire</label>
+            <input
+              type="radio"
+              name="rad-abonnement"
+              id="rad-2"
+              class="formulaire__rad"
+            />
+            <label for="rad-3">Pro</label>
+            <input
+              type="radio"
+              name="rad-abonnement"
+              id="rad-3"
+              class="formulaire__rad"
+            />
+          </fieldset>
+          <input
+            class="formulaire__submit"
+            type="submit"
+            value="Valider l'inscription"
+          />
+        </form>
+      </section>
+    </div>
+    <div class="conteneur tableau">
+      <section class="centre" id="deux">
+        <h2>TABLEAU</h2>
+        <table class="tableau">
+          <thead>
+            <tr>
+              <th>Aliment (Portion de 100g)</th>
+              <th>Énergie (kcal)</th>
+              <th>Glucides Totaux (g)</th>
+              <th>Sucres Simples (g)</th>
+              <th>Fibres (g)</th>
+              <th>Protéines (g)</th>
+              <th>Lipides Totaux (g)</th>
+              <th>Notes/Indice Glycémique (IG)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Banane</td>
+              <td>90</td>
+              <td>23</td>
+              <td>12</td>
+              <td>2.6</td>
+              <td>1.1</td>
+              <td>0.3</td>
+              <td>IG Moyen (51)</td>
+            </tr>
+            <tr>
+              <td>Figue (fraîche)</td>
+              <td>74</td>
+              <td>19.2</td>
+              <td>16.3</td>
+              <td>3</td>
+              <td>0.8</td>
+              <td>0.3</td>
+              <td>IG Moyen (35-50)</td>
+            </tr>
+            <tr>
+              <td>Ananas</td>
+              <td>50</td>
+              <td>13.1</td>
+              <td>9.9</td>
+              <td>1.4</td>
+              <td>0.5</td>
+              <td>0.1</td>
+              <td>IG Moyen (59)</td>
+            </tr>
+            <tr>
+              <td>Pomme (avec peau)</td>
+              <td>52</td>
+              <td>13.8</td>
+              <td>10.4</td>
+              <td>2.4</td>
+              <td>0.3</td>
+              <td>0.2</td>
+              <td>IG Bas (36)</td>
+            </tr>
+            <tr>
+              <td>Orange</td>
+              <td>47</td>
+              <td>11.8</td>
+              <td>9.4</td>
+              <td>2.4</td>
+              <td>0.9</td>
+              <td>0.1</td>
+              <td>IG Bas (43)</td>
+            </tr>
+            <tr>
+              <td>Datte (sèche)</td>
+              <td>282</td>
+              <td>75</td>
+              <td>63.4</td>
+              <td>8</td>
+              <td>2.5</td>
+              <td>0.4</td>
+              <td class="tres-haut">IG Élevé (103-165 selon variété)</td>
+            </tr>
+            <tr>
+              <td>Mangue</td>
+              <td>60</td>
+              <td>15</td>
+              <td>13.7</td>
+              <td>1.6</td>
+              <td>0.8</td>
+              <td>0.4</td>
+              <td>IG Moyen (51)</td>
+            </tr>
+            <tr>
+              <td>Raisin</td>
+              <td>69</td>
+              <td>18.1</td>
+              <td>15.5</td>
+              <td>0.9</td>
+              <td>0.7</td>
+              <td>0.2</td>
+              <td>IG Moyen (59)</td>
+            </tr>
+            <tr>
+              <td>Framboise</td>
+              <td>52</td>
+              <td>11.9</td>
+              <td>4.4</td>
+              <td>6.5</td>
+              <td>1.2</td>
+              <td>0.7</td>
+              <td>IG Bas (25)</td>
+            </tr>
+            <tr>
+              <td>Bleuet (Myrtille)</td>
+              <td>57</td>
+              <td>14.5</td>
+              <td>9.9</td>
+              <td>2.4</td>
+              <td>0.7</td>
+              <td>0.3</td>
+              <td>IG Bas (53)</td>
+            </tr>
+            <tr>
+              <td>Fraise</td>
+              <td>32</td>
+              <td>7.7</td>
+              <td>4.9</td>
+              <td>2</td>
+              <td>0.7</td>
+              <td>0.3</td>
+              <td>IG Bas (40)</td>
+            </tr>
+            <tr>
+              <td>Avocat</td>
+              <td>160</td>
+              <td>8.5</td>
+              <td>0.7</td>
+              <td>6.7</td>
+              <td>2</td>
+              <td>14.7</td>
+              <td class="tres-bas">IG Très Bas (10)</td>
+            </tr>
+            <tr>
+              <td>Kiwi</td>
+              <td>61</td>
+              <td>14.7</td>
+              <td>9</td>
+              <td>3</td>
+              <td>1.1</td>
+              <td>0.5</td>
+              <td>IG Bas (53)</td>
+            </tr>
+            <tr>
+              <td>Poire</td>
+              <td>57</td>
+              <td>15.2</td>
+              <td>9.8</td>
+              <td>3.1</td>
+              <td>0.4</td>
+              <td>0.1</td>
+              <td>IG Moyen (30-40)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="conteneur__tableau">
+          <caption>
+            Légende
+          </caption>
+          <tr>
+            <td>Très haut</td>
+            <td>très bas</td>
+          </tr>
+          <tr>
+            <td class="tres-haut"></td>
+            <td class="tres-bas"></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <div class="conteneur">
+      <section class="centre" id="trois">
+        <h2>TROIS</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ut, ab
+          porro quam eveniet assumenda id dolorem iste voluptatibus vel ullam
+          repellat dolore possimus sint ipsam atque esse minus nihil.
+        </p>
+      </section>
+    </div>
+    <div class="conteneur">
+      <section class="centre" id="quatre">
+        <h2>QUATRE</h2>
+      </section>
+    </div>
+    <div class="conteneur">
+      <section class="centre" id="cinq">
+        <h2>CINQ</h2>
+      </section>
+    </div>
+    <div class="conteneur">
+      <section class="centre" id="six">
+        <h2>Six</h2>
+      </section>
+    </div>
+    
+    <div class="conteneur">
+      <footer class="pied centre" id="pied de page">
+        <h3>Pied de page</h3>
+       
+          <ul>
+            <li>Étudiant: Karym Blain</li>
+            <li>Cours: 1W1-Mise en page Web</li>
+            <li>Groupe : 03</li>
+            <li>Enseignant: Eddy Martin</li>
+          </ul>
+        </section>
+        <section class="pied__section">
+          <h3>Adresse</h3>
+          <ul>
+            <li>3800 Sherbrooke est</li>
+            <li>Montréal, QC</li>
+            <li>H1X 2A2</li>
+            <li>514-254-7131</li>
+            <li>514-254-7170</li>
+          </ul>
+        </section>
+        <section class="pied__cours">
+          <h3>Cours</h3>
+          <ul>
+            <li>1W1-Mise en page Web</li>
+            <li>1J1-Animation et intéractivité en jeux</li>
+            <li>1M1-Création vidéo</li>
+            <li>1M2-Conception graphique et img matricielle</li>
+          </ul>
+        </section>
+        <section class="pied__resume">
+          <h3>En résumé</h3>
+          <p>
+            Une alimentation équilibrée privilégie la variété, la modération et
+            la qualité des aliments. Peu importe la diète choisie, l'essentiel
+            est d'adopter des habitudes durables qui soutiennent la santé du
+            corps et de l'esprit.
+          </p>
+        </section>
+        </footer>
+        <figure class="pied__sociaux">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=github&color=000000"
+            width="25"
+            height="25"
+            alt="github"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f"
+            width="25"
+            height="25"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00"
+            width="25"
+            height="25"
+            alt="stackoverflow"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da"
+            width="25"
+            height="16"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f"
+            width="25"
+            height="25"
+            alt="messenger"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da"
+            width="25"
+            height="25"
+          />
+        </figure>
+      </footer>
+    </div>
+  </body>
+</html>
