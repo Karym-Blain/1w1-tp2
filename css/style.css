@@ -59,21 +59,30 @@ footer {
   background-color: bisque;
 }
 .conteneur:nth-of-type(2) {
-  background-color: rgb(100, 200, 23);
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
 }
 .conteneur:nth-of-type(3) {
-  background-color: rgb(17, 118, 138);
+  background-image: url("../images/city.jpg");
+  height: 100vh;
 }
 .conteneur:nth-of-type(4) {
-  background-color: rgb(163, 42, 182);
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
 }
 
 .conteneur:nth-of-type(5) {
-  background-color: rgb(228, 205, 27);
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
 }
 
 .conteneur:nth-of-type(6) {
-  background-color: rgb(44, 39, 4);
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+.conteneur:nth-of-type(7) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
 }
 
 /* ////////////////////////////////////////////////// .hero */
